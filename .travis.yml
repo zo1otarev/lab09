@@ -14,8 +14,12 @@ apt:
   - cmake-data
   - clang-3.7
   - g++-7
-
+    /lang<CR>0
+services:
+        - docker<ESC>
+          jVGdo
 script:
+        - docker build -t logger .<ESC>        
 - cd hello_world_application
 - cmake -H. -B_build
 - cmake --build _build
@@ -28,3 +32,4 @@ script:
 - cmake --build _build
 - cmake --build _build --target solver
 - echo "Solver application testing is done"
+
