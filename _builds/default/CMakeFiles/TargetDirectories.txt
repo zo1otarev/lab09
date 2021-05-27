@@ -1,0 +1,9 @@
+/home/daniil/lab07/_builds/default/CMakeFiles/install/strip.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/install/local.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/install.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/package.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/package_source.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/print.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/list_install_components.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/edit_cache.dir
+/home/daniil/lab07/_builds/default/CMakeFiles/rebuild_cache.dir
