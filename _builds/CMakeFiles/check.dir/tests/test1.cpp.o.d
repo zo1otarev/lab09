@@ -1,6 +1,6 @@
 CMakeFiles/check.dir/tests/test1.cpp.o: \
- /home/daniil/lab07/tests/test1.cpp /usr/include/stdc-predef.h \
- /home/daniil/lab07/include/print.hpp /usr/include/c++/9/fstream \
+ /home/daniil/lab09/tests/test1.cpp /usr/include/stdc-predef.h \
+ /home/daniil/lab09/include/print.hpp /usr/include/c++/9/fstream \
  /usr/include/c++/9/istream /usr/include/c++/9/ios \
  /usr/include/c++/9/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \

@@ -53,10 +53,10 @@ RM = /snap/cmake/870/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniil/lab07
+CMAKE_SOURCE_DIR = /home/daniil/lab09
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniil/lab07/_builds
+CMAKE_BINARY_DIR = /home/daniil/lab09/_builds
 
 # Include any dependencies generated for this target.
 include CMakeFiles/print.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/print.dir/flags.make
 CMakeFiles/print.dir/sources/print.cpp.o: CMakeFiles/print.dir/flags.make
 CMakeFiles/print.dir/sources/print.cpp.o: ../sources/print.cpp
 CMakeFiles/print.dir/sources/print.cpp.o: CMakeFiles/print.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/lab07/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/print.dir/sources/print.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/print.dir/sources/print.cpp.o -MF CMakeFiles/print.dir/sources/print.cpp.o.d -o CMakeFiles/print.dir/sources/print.cpp.o -c /home/daniil/lab07/sources/print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniil/lab09/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/print.dir/sources/print.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/print.dir/sources/print.cpp.o -MF CMakeFiles/print.dir/sources/print.cpp.o.d -o CMakeFiles/print.dir/sources/print.cpp.o -c /home/daniil/lab09/sources/print.cpp
 
 CMakeFiles/print.dir/sources/print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/print.dir/sources/print.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/lab07/sources/print.cpp > CMakeFiles/print.dir/sources/print.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniil/lab09/sources/print.cpp > CMakeFiles/print.dir/sources/print.cpp.i
 
 CMakeFiles/print.dir/sources/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/print.dir/sources/print.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/lab07/sources/print.cpp -o CMakeFiles/print.dir/sources/print.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniil/lab09/sources/print.cpp -o CMakeFiles/print.dir/sources/print.cpp.s
 
 # Object files for target print
 print_OBJECTS = \
@@ -93,7 +93,7 @@ print_EXTERNAL_OBJECTS =
 libprint.a: CMakeFiles/print.dir/sources/print.cpp.o
 libprint.a: CMakeFiles/print.dir/build.make
 libprint.a: CMakeFiles/print.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniil/lab07/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprint.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniil/lab09/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprint.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/print.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/print.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/print.dir/clean:
 .PHONY : CMakeFiles/print.dir/clean
 
 CMakeFiles/print.dir/depend:
-	cd /home/daniil/lab07/_builds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniil/lab07 /home/daniil/lab07 /home/daniil/lab07/_builds /home/daniil/lab07/_builds /home/daniil/lab07/_builds/CMakeFiles/print.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniil/lab09/_builds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniil/lab09 /home/daniil/lab09 /home/daniil/lab09/_builds /home/daniil/lab09/_builds /home/daniil/lab09/_builds/CMakeFiles/print.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/print.dir/depend
 

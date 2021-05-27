@@ -1,5 +1,5 @@
 Command line:
-"travis lint"
+"travis login --auto"
 
 
    ________                                 __
@@ -25,8 +25,8 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on daniil-GF63-Thin-9RCX at Wed May 26 21:38:25 2021 (PID 46078)
-  #  Running in /home/daniil/lab06
+  #  Running on daniil-GF63-Thin-9RCX at Thu May 27 13:34:47 2021 (PID 11025)
+  #  Running in /home/daniil/lab09
   #  Code version: Jan 01 2019,  Compiled at Mar 22 2020, 16:01:08,  Compiler "9.3.0", GCC 9.3.0
   #  Target platform: Linux,  Compile flags: DEBUG_ARRAYS 
   #  Machine: int=4b, long=8b, addr=8b, 0xA0B0C0D0=D0,C0,B0,A0.
@@ -35,10 +35,10 @@ Command line:
 
  >>> Please use a color scheme with dark background or specify "-nocolor"! <<<
 
-    No configuration file found.
-    Writing default configuration to /home/daniil/.travis.conf ...
+    Loading configuration from /home/daniil/.travis.conf ...
 
-Unknown parameter: "lint".
+[Renaming existing File input.txt to #1#input.txt ...OK.]
+Unknown parameter: "login".
 
     List of supported command line options:
 

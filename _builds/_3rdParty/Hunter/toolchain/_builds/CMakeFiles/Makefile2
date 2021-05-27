@@ -54,10 +54,10 @@ RM = /snap/cmake/870/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniil/lab07/_builds/_3rdParty/Hunter/toolchain
+CMAKE_SOURCE_DIR = /home/daniil/lab09/_builds/_3rdParty/Hunter/toolchain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniil/lab07/_builds/_3rdParty/Hunter/toolchain/_builds
+CMAKE_BINARY_DIR = /home/daniil/lab09/_builds/_3rdParty/Hunter/toolchain/_builds
 
 #=============================================================================
 # Directory level rules for the build root directory
